@@ -22,6 +22,7 @@ export default function SectionContainer({
             as="h1"
             color={color}
             mt={headerMt}
+            textAlign={'center'}
             className={useHeaderStyle ? styles.header : ""}
           >
             {headerText}

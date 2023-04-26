@@ -46,5 +46,16 @@ body {
 }
 
 .text {
-  font-size: calc(var(--index) * 1);
+  font-size: calc(var(--index) * 0.9);
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    font-size: calc(var(--index) * 1.1);
+  }
+}
+@media screen and (max-width: 479px) {
+  .text {
+    font-size: 20px;
+  }
 }

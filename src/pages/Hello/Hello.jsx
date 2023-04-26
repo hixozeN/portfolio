@@ -27,7 +27,7 @@ export default function Hello() {
   );
 
   return (
-    <SectionContainer id="hello" name="Обо мне" headerText={header}>
+    <SectionContainer id="hello" name="Приветствие" headerText={header}>
       <LinkIconBar links={links} />
       <Link
         activeClass="active"
@@ -44,9 +44,8 @@ export default function Hello() {
             className={styles.learn}
           >
             Узнать больше
-            <BsChevronDown/>
+            <BsChevronDown />
           </Text>
-          
         </VStack>
       </Link>
     </SectionContainer>

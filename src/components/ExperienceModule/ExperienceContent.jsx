@@ -17,7 +17,7 @@ export default function ExperienceContent() {
   return (
     <Grid
     maxWidth="80vw"
-    minHeight='40vh'
+    minHeight='70vh'
     gridTemplateColumns={showSelect && '20vw 50vw'}
     >
       <Grid

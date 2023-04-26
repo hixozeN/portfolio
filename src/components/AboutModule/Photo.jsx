@@ -6,7 +6,7 @@ const Photo = () => (
     <Image
       m="auto"
       src="./me.jpg"
-      alt="Владос Попадос"
+      alt="Фотография разработчика сайта в лесу"
       zIndex={1}
       className="image"
       onClick={() => {

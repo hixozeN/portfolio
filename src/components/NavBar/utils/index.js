@@ -1,5 +1,9 @@
 export const navBtns = [
   {
+    label: "Главная",
+    scroll: "hello",
+  },
+  {
     label: "Обо мне",
     scroll: "About",
   },

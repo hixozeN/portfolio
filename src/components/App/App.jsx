@@ -8,6 +8,7 @@ import About from "../../pages/About/About";
 import Experience from "../../pages/Experience/Experience";
 import { BrowserRouter } from "react-router-dom";
 import Contact from "../../pages/Contact/Contact";
+import Projects from "../../pages/Projects/Projects";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Hello />
         <About />
         <Experience />
+        <Projects />
         <Contact />
         <Footer />
       </ChakraProvider>

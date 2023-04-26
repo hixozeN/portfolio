@@ -26,7 +26,7 @@ const jobs = [
   },
   {
     workplace: "Разработка",
-    position: "Fullstack-разработчик",
+    position: "Frontend-разработчик",
     duration: ["2009г+"],
     description: [
       "Разрабатывал сайты, UCP и ACP для своих игровых проектов (PHP + MySQL)",
