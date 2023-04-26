@@ -1,0 +1,32 @@
+.center {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: bold;
+  font-size: 1.25em;
+  padding-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.learn:hover {
+  font-size: 1.25em;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.jump {
+  padding-top: "30px";
+}
+
+.tagline {
+  font-size: 2.5em;
+}
+
+.blue {
+  color: "#19aad5";
+}
