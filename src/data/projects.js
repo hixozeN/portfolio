@@ -25,19 +25,19 @@ const projects = [
   {
     name: "MESTO React",
     description:
-      "Проект Место в рамках курса веб-разработки в Яндекс.Практикуме. Франкенштейн инстаграмма и той самой стены Дурова (которую он все еще не вернул), но в виде сетки :)",
+      "Проект Место - классическое MERN-приложение в рамках курса веб-разработки в Яндекс.Практикуме. Франкенштейн инстаграмма и той самой стены Дурова (которую он все еще не вернул), но в виде сетки :)",
     pic: "./mesto.png",
-    tech: ["React", "JavaScript", "RestAPI", "Адаптив"],
+    tech: ["MongoDB", "Express", "React", "NodeJS"],
     links: [
       {
         label: "Сайт",
         icon: "link",
-        url: "https://hixozen.github.io/mesto-react/",
+        url: "https://mesto.hixozen.ru",
       },
       {
         label: "GitHub",
         icon: "github",
-        url: "https://github.com/hixozeN/mesto-react/",
+        url: "https://github.com/hixozeN/react-mesto-api-full-gha",
       },
     ],
   },
